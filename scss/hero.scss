@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5.5rem 1.5rem;
     
     &__cards{
         display: grid;
@@ -11,6 +10,10 @@
 
         @include breakpoint-up(large){
             grid-template-columns: repeat(3, 1fr);
+            margin-top: 10.6875rem;
+            padding: 0;
+            border-radius: 5px;
+            overflow: hidden;
         }
     }
 }
@@ -25,6 +28,16 @@
 
 .background03{
     background-color: $veryDarkCyan;    
+}
+
+.color01 {
+    color: $brightOrange;
+}
+.color02 {
+    color: $darkCyan;
+}
+.color03 {
+    color: $veryDarkCyan;
 }
 
 .cards {
@@ -58,7 +71,6 @@
         border-radius: 50px;
         border: 2px solid $veryLightGray;
         cursor: pointer;
-        color: $brightOrange;
         transition: 300ms ease-in-out;
 
         &:hover {
@@ -73,6 +85,7 @@
     font-size: $font-med;
     text-align: center;
     color: $veryDarkOrange;
+    padding: 1rem 0;
 
     a {
         color: $darkCyan;
