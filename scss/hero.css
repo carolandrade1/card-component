@@ -1,0 +1,16 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.container__cards {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.cards__icon {
+  width: 4.1875rem;
+  height: 2.6875rem;
+}
+/*# sourceMappingURL=hero.css.map */

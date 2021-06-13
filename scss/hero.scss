@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5.5rem 1.5rem;
+    
+    &__cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 57.5rem;
+
+        @include breakpoint-up(large){
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+.background01{
+    background-color: $brightOrange;    
+}
+
+.background02{
+    background-color: $darkCyan;    
+}
+
+.background03{
+    background-color: $veryDarkCyan;    
+}
+
+.cards {
+    padding: 2.8125rem;
+
+    &__icon {
+        width: 4.1875rem;
+        height: 2.6875rem;
+        margin-bottom: 2.5rem;
+    }
+
+    &__title {
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: $font-lg;
+        color: $veryLightGray;
+        text-transform: uppercase;
+        margin-bottom: 2.5rem;
+    }
+
+    &__description {
+        font-size: $font-med;
+        line-height: 25px;
+        margin-bottom: 5.3125rem;
+    }
+
+    &__button {
+        display: inline-block;
+        font-size: $font-sml;
+        padding: 12px 30px;
+        background-color: $veryLightGray;
+        border-radius: 50px;
+        border: 2px solid $veryLightGray;
+        cursor: pointer;
+        color: $brightOrange;
+        transition: 300ms ease-in-out;
+
+        &:hover {
+            color: $veryLightGray;
+            background-color: transparent;
+        }
+    }
+}
+
+.attribution {
+    margin: 0 3rem;
+    font-size: $font-med;
+    text-align: center;
+    color: $veryDarkOrange;
+
+    a {
+        color: $darkCyan;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5.5rem 1.5rem;
+}
+
+.container__cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  max-width: 57.5rem;
+}
+
+@media (min-width: 64em) {
+  .container__cards {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.background01 {
+  background-color: #e38826;
+}
+
+.background02 {
+  background-color: #006970;
+}
+
+.background03 {
+  background-color: #004241;
+}
+
+.cards {
+  padding: 2.8125rem;
+}
+
+.cards__icon {
+  width: 4.1875rem;
+  height: 2.6875rem;
+  margin-bottom: 2.5rem;
+}
+
+.cards__title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.25rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.cards__description {
+  font-size: 1rem;
+  line-height: 25px;
+  margin-bottom: 5.3125rem;
+}
+
+.cards__button {
+  display: inline-block;
+  font-size: 0.9375rem;
+  padding: 12px 30px;
+  background-color: #f2f2f2;
+  border-radius: 50px;
+  border: 2px solid #f2f2f2;
+  cursor: pointer;
+  color: #e38826;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.cards__button:hover {
+  color: #f2f2f2;
+  background-color: transparent;
+}
+
+.attribution {
+  margin: 0 3rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #673a09;
+}
+
+.attribution a {
+  color: #006970;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
