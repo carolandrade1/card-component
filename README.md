@@ -10,7 +10,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Links](#links)
   - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
   - [Author](#author)
 
 
@@ -29,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github Repository](https://github.com/carolandrade1/card-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -45,6 +44,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Codepen - [@yourusername](https://www.codepen.com/yourusername)
-- Github
+- Frontend Mentor - [@carolandrades1](https://www.frontendmentor.io/profile/carolandrades1)
