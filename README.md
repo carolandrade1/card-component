@@ -12,7 +12,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Built with](#built-with)
   - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -29,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/carolandrade1/card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [See live](https://carolandrade1.github.io/card-component/)
 
 ## My process
 
