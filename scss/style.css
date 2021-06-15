@@ -51,7 +51,7 @@ a, a:visited, a:hover {
         grid-template-columns: repeat(3, 1fr);
     margin-top: 10.6875rem;
     padding: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
   }
 }
@@ -81,32 +81,32 @@ a, a:visited, a:hover {
 }
 
 .cards {
-  padding: 2.8125rem;
+  padding: 2.9375rem;
 }
 
 .cards__icon {
   width: 4.1875rem;
-  height: 2.6875rem;
-  margin-bottom: 2.5rem;
+  height: 2.5625rem;
+  margin-bottom: 2.1875rem;
 }
 
 .cards__title {
   font-family: 'Big Shoulders Display', cursive;
-  font-size: 2.25rem;
+  font-size: 2.375rem;
   color: #f2f2f2;
   text-transform: uppercase;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.1875rem;
 }
 
 .cards__description {
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 25px;
-  margin-bottom: 5.3125rem;
+  margin-bottom: 4.8rem;
 }
 
 .cards__button {
   display: inline-block;
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   padding: 12px 30px;
   background-color: #f2f2f2;
   border-radius: 50px;

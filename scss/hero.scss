@@ -12,7 +12,7 @@
             grid-template-columns: repeat(3, 1fr);
             margin-top: 10.6875rem;
             padding: 0;
-            border-radius: 5px;
+            border-radius: 10px;
             overflow: hidden;
         }
     }
@@ -41,12 +41,12 @@
 }
 
 .cards {
-    padding: 2.8125rem;
+    padding: 2.9375rem;
 
     &__icon {
         width: 4.1875rem;
-        height: 2.6875rem;
-        margin-bottom: 2.5rem;
+        height: 2.5625rem;
+        margin-bottom: 2.1875rem;
     }
 
     &__title {
@@ -58,9 +58,9 @@
     }
 
     &__description {
-        font-size: $font-med;
+        font-size: $font-sml;
         line-height: 25px;
-        margin-bottom: 4.375rem;
+        margin-bottom: 4.8rem;
     }
 
     &__button {
